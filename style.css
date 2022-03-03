@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+   
+}
+
+body {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: darkgreen;
+    vertical-align: middle;
+    
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 1em;
+}
+
+ul li {
+    display: inline;
+    padding-left: 15em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    display: inline;
+}
+
+h2 {
+    margin: 2em;
+}
+
+map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.info {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   justify-content: space-between;
+    margin: 2em;
+
+}
+
+
+.info-box {
+    width: 50%;
+    
+    padding: 1em;
+}
+
+.info-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 10px;
+    margin: 2em;
+}
+.gallery-img {
+    max-height: 300px;
+}
+
+.g-img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+footer {
+    background-color: black;
+    color: purple;
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em 0em 0em;
+    padding: 1em;
+}
+
+footer p {
+    padding: 1em;
+}
